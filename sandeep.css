@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0cap;
+}
+header{
+    background-color: rgb(251, 245, 236);
+    margin-left: 50px;
+   
+}
+.nav_bar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+ul li{
+    list-style: none;
+}
+ul li:hover{
+    color: rgb(198, 242, 242);
+}
+.main_content{
+    display: flex;
+    height: 500px;
+    /* width: 600px; */
+    justify-content: center;
+    margin-top:10px;
+}
+.main_content img{
+    width: 700px;
+}
+.logo{
+    font-size: 25px;
+    font-style: italic;
+    font-family: Cabin, Georgia, serif;
+}
+.text_content{
+    background-color: rgb(230, 246, 253);
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+button{
+
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    background-color: skyblue
+    
+}
+.bb{
+    width: 1100px;
+    /* margin-right: 300px; */
+    margin-left: 200px;
+}
+.text{
+font-size: 30px;
+color: rgb(226, 241, 247);
+background-color: black;
+height: 70px;
+padding: 15px;
+}
+.about_text{
+    justify-content: center;
+    align-items: center;
+    padding-left: 90px;
+    font-size: 16px;
+    font-size: 18px;
+    background-color: rgb(220, 244, 253);
+    width: 365px;
+}
+.text2{
+    padding-left: 27px;
+}
+.sandeep{
+    background-color: rgb(221, 244, 252);
+            width: 400px;
+            height: 760px;
+            font-size: 20px;
+            text-align: center;
+            margin-left: 50px;
+            margin-bottom: 40px;
+            justify-content: center;
+           
+}
+.abc{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#sand1 img{
+    width: 500px;
+    height: 320px;
+
+}
+#sand2 img{
+    width: 500px;
+    height: 320px;
+}
+#sand3 img{
+    width: 500px;
+    height: 320px;
+}
+img{
+    width: 400px;
+}
+.sandy{
+    
+    width: 400px;
+    height: 390px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    /* justify-content: center;
+    align-items: center; */
+    padding-left: 100px;
+   
+}
+.xyz{
+    display: flex;
+}
+.yt{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+.fa-facebook{
+    font-size: 30px;
+   padding-left: 600px;
+   color: rgb(114, 205, 241);
+   margin-right: 20px;
+   
+}
+.fa-instagram{
+    font-size: 30px;
+    color: palevioletred;
+    margin-right: 20px;
+}
+.fa-x-twitter{
+font-size: 30px;
+margin-right: 20px;
+
+}
+.fa-youtube{
+    font-size: 30px;
+    color: red;
+    margin-right: 20px;
+}
+.footer{
+    color: black;
+    padding-left: 500px;
+    margin-bottom: 20px;
+}
+.copyright{
+    padding-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
